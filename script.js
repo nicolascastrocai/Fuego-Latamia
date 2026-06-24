@@ -34,7 +34,7 @@ function playVideo() {
   if (videoLoaded) return;
   videoLoaded = true;
   const screen = document.getElementById('vsl');
-  screen.innerHTML = '<iframe src="https://drive.google.com/file/d/1EA9KNAPs5brWZUfhd94_e_pY8keZm1at/preview?autoplay=1" width="100%" height="100%" style="position:absolute;inset:0;border:none;" allow="autoplay" allowfullscreen></iframe>';
+  screen.innerHTML = '<iframe src="https://www.youtube.com/embed/Vfkr3hhb_TM?autoplay=1" width="100%" height="100%" style="position:absolute;inset:0;border:none;" allow="autoplay; encrypted-media" allowfullscreen></iframe>';
   screen.style.background = '#000';
   screen.style.cursor = 'default';
 }

@@ -210,6 +210,28 @@ nav {
   width: 100%;
   height: 120px;
 }
+.awards-badge svg text {
+  fill: #ffffff;
+  font-family: 'Courier Prime', monospace;
+  font-size: 7px;
+}
+.awards-badge svg .cls-3,
+.awards-badge svg .cls-5,
+.awards-badge svg .cls-6 {
+  fill: #ffffff;
+}
+.awards-badge svg .cls-4 {
+  fill: var(--fire);
+}
+.awards-badge svg .cls-7 {
+  fill: var(--fire);
+  font-weight: 700;
+}
+.awards-badge svg .cls-1,
+.awards-badge svg .cls-2,
+.awards-badge svg .cls-8 {
+  fill: #ffffff;
+}
 
 /* VIDEO BOX */
 .video-outer {
